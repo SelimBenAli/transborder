@@ -1,0 +1,27 @@
+.intro-heading {
+    font-size: 50px;
+}
+
+@media (max-width:450px) {
+    .intro-heading {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    section h2.section-heading, section .section-heading.h2c {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:320px) {
+    .intro-heading {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+}
